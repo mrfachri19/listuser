@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import profile from "../assets/Profile.png";
 import menuicon from "../assets/burger_line_list_menu_nav_navigation_option_icon_16.png";
 import bellmenu from "../assets/bell_16.png";
+import Sidebar from "../components/Sidebar";
 
 function ShowProduct() {
   const dispatch = useDispatch();
@@ -20,35 +21,8 @@ function ShowProduct() {
 
   return (
     <div className="columns">
-      <div className="column is-3  left__backround">
-        <h5>SWAMBADIA</h5>
-        <figure className="image is-64x64">
-          <img
-            className="is-rounded img__profile"
-            src={profile}
-            alt="profile"
-          />
-        </figure>
-        <h5>Admin Swambadia</h5>
-
-        <div className="left__backround">
-          <aside class="menu">
-            <p class="menu-label has-text-light">Dashboard</p>
-            <ul class="menu-list">
-              <li>
-                <p className="has-text-light">components</p>
-              </li>
-            </ul>
-            <p class="menu-label has-text-light">Administration</p>
-            <p class="menu-label has-text-light">Books</p>
-            <ul class="menu-list">
-              <li>
-                <p className="has-text-light">Extras</p>
-              </li>
-            </ul>
-            <p class="menu-label has-text-light">Pages</p>
-          </aside>
-        </div>
+      <div className="column is-3 app">
+        <Sidebar />
       </div>
       <div className="colummn is-9 right__background right__listuser">
         <nav class="navbar is-transparent">
