@@ -1,0 +1,43 @@
+.left__backround {
+  background-color: #555;
+  padding: 10px;
+}
+
+.img__profile {
+  margin-left: 140px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h5 {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.right__listuser {
+  padding-top: 0px !important;
+}
+
+.right__background {
+  background-color: rgb(218, 216, 216);
+}
+
+.bellmenu {
+  padding-right: 25px;
+  padding-top: 5px;
+}
+
+.right__background--nav {
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid rgb(184, 183, 183) !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.box {
+  margin: 50px !important;
+}
